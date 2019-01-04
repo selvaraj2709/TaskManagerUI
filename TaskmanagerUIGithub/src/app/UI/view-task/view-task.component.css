@@ -1,0 +1,34 @@
+.adjust-float {
+    float:right;
+}
+
+.light-blue {
+    background-color: #5bc0de;
+}
+
+@media (max-width: 768px) {
+    .adjust-float {
+        float:left;
+        padding-left: 15px;
+    }
+}
+
+
+::ng-deep .card.customClass,
+ ::ng-deep .card.customClass .card-header,
+ ::ng-deep .panel.customClass {
+    background-color: #5bc0de;
+    color: #fff;
+  }
+ ::ng-deep  .panel-default>.panel-heading {
+    background-color: #337aa7;
+    color: #fff;
+  }
+
+  ::ng-deep .btn-link {
+    font-weight: 800;
+    color: white !important;
+    border-radius: 0;
+}
+
+
